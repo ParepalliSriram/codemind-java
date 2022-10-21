@@ -7,16 +7,9 @@ class Firt
         int a=sc.nextInt();
         for(int i=0;i<a;i++)
         {
-            for(int k=0;k<a;k++)
+            for(int k=a;k>0;k--)
             {
-                if(i==k)
-                {
-                    System.out.print("0");
-                }
-                else
-                {
-                    System.out.print("x");
-                }
+                System.out.print(k+" ");
             }
             System.out.println();
         }
