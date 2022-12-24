@@ -7,9 +7,9 @@ class Main
         int a=sc.nextInt();
         for(int i=1;i<=a;i++)
         {
-            for(int k=1;k<=a;k++)
+            for(int k=1;k<=i;k++)
             {
-                System.out.print((char)(64+i)+" ");
+                System.out.print(k);
             }
             System.out.println();
         }
