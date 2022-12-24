@@ -7,16 +7,9 @@ class Main
         int a=sc.nextInt();
         for(int i=1;i<=a;i++)
         {
-            for(int k=1;k<=i;k++)
+            for(int k=1;k<=a;k++)
             {
-                if(k==1 || k==i || i==a)
-                {
-                    System.out.print("*");
-                }
-                else
-                {
-                    System.out.print(" ");
-                }
+                System.out.print((char)(64+i)+" ");
             }
             System.out.println();
         }
